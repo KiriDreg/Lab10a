@@ -1,11 +1,11 @@
-package Lab10a.pack;
+package Lab10a;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
 
 public class MyBST_Basic_670014 {
-    private BNode root;
+    protected BNode root;
     public MyBST_Basic_670014() {  root = null; }
     public MyBST_Basic_670014(Integer[] input) {
         if (input.length == 0)

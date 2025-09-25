@@ -1,8 +1,8 @@
-package Lab10a.pack;
+package Lab10a;
 
-public class MyBST_XXYYYY extends MyBST_Basic {
-    public MyBST_XXYYYY() { super() };
-    public MyBST_XXYYYY(Integer[] input) {
+public class MyBST_670014 extends MyBST_Basic_670014 {
+    public MyBST_670014() { super() };
+    public MyBST_670014(Integer[] input) {
         super(input);
     }
     public BNode getRoot() {
@@ -17,7 +17,7 @@ public class MyBST_XXYYYY extends MyBST_Basic {
     }
     public BNode findMax(BNode node) {
         if (node == null) throw new IllegalArgumentException("Empty Tree");
-        while (/* your code 2 */) {    
+        while (node.right != null/* your code 2 */) {    
             node = node.right;
         }
         return node;        

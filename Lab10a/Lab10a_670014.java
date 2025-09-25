@@ -2,7 +2,7 @@ package Lab10a;
 
 import Lab10a.pack.*;
 
-public class Lab10a_XXYYYY {
+public class Lab10a_670014 {
     public static void main(String[] args) {
         demo1();
         demo2();
@@ -14,7 +14,7 @@ public class Lab10a_XXYYYY {
 
 public static void demo1() {
     System.out.println("----insert----");
-    MyBST_Basic_XXYYYY bst = new MyBST_Basic_XXYYYY();
+    MyBST_Basic_670014 bst = new MyBST_Basic_670014();
     bst.insert(2);
     bst.insert(5);
     bst.insert(1);
